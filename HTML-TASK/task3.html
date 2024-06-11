@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links Example</title>
+    <style>
+        .box {
+            border: 2px solid black;
+            padding: 20px;
+            margin: 20px;
+            background-color: #f0f0f0;
+            width: fit-content;
+        }
+        .links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: blue;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        Click any of the following links
+        <div class="links">
+            <a href="https://www.example.com" target="_blank">Opens in New</a>
+            <a href="https://www.example.com" target="_self">Opens in Self</a>
+            <a href="https://www.example.com" target="_parent">Opens in Parent</a>
+            <a href="https://www.example.com" target="_top">Opens in Body</a>
+            <a href="mailto:example@example.com">Send email</a>
+        </div>
+    </div>
+</body>
+</html>
